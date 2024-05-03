@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap'); 
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+:root {
+    --primary-color: #0b69ccff;
+    --secondary-color: #77b28cff;
+    --accent1-color: #88BFFA;
+    --accent2-color: #ffd9bdff;
+
+    --heading-font: "caveat";
+    --paragraph-font: "open sans"; 
+    
+    --nav-background-color: #88BFFA;
+    --nav-link-color: #0b69ccff;
+    --nav-hover-link-color: #ffd9bdff;
+    --nav-hover-background-color: #77b28cff;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+} 
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
