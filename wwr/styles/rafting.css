@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+:root {
+    --primary-color: #0b69ccff;
+    --secondary-color: #77b28cff;
+    --accent1-color: #88BFFA;
+    --accent2-color: #ffd9bdff;
+
+    --heading-font: "caveat";
+    --paragraph-font: "open sans"; 
+    
+    --nav-background-color: #88BFFA;
+    --nav-link-color: #0b69ccff;
+    --nav-hover-link-color: #ffd9bdff;
+    --nav-hover-background-color: #77b28cff;
+}
