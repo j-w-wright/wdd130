@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 :root {
-    --primary-color: #0b69ccff;
+    --primary-color: #0b69cc;
     --secondary-color: #77b28cff;
-    --accent1-color: #88BFFA;
+    --accent1-color: #88bffa;
     --accent2-color: #ffd9bdff;
 
     --heading-font: "caveat";
@@ -12,4 +12,65 @@
     --nav-link-color: #0b69ccff;
     --nav-hover-link-color: #ffd9bdff;
     --nav-hover-background-color: #77b28cff;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 1000px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+} 
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+.hero img {
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+.hero h1 {
+    position: absolute;
+    background-color: #0b69ccff; 
+    color: #88BFFA;
+    left: 220px;
+    top: 450px;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.hero article p {
+    position: absolute;
+    top: 850px;
+    font-size: 16pt;
+    color: var(--accent2-color);
+    background-color: rgb(11, 105, 204, 0.5);
+    max-width: 980px;
+    padding: 10px;
+}
+.hero article img {
+    float: right;
+    width: 200px;
+    height: auto;
 }
