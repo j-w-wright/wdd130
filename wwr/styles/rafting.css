@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 :root {
-    --primary-color: #0b69cc;
-    --secondary-color: #77b28cff;
-    --accent1-color: #88bffa;
-    --accent2-color: #ffd9bdff;
+    --primary-color: #7AC4D5;
+    --secondary-color: #134365;
+    --accent1-color: #508CA4;
+    --accent2-color: #F6DE73;
 
     --heading-font: "caveat";
     --paragraph-font: "open sans"; 
     
-    --nav-background-color: #88BFFA;
-    --nav-link-color: #0b69ccff;
-    --nav-hover-link-color: #ffd9bdff;
-    --nav-hover-background-color: #77b28cff;
+    --nav-background-color: #7AC4D5;
+    --nav-link-color: #134365;
+    --nav-hover-link-color: #508CA4;
+    --nav-hover-background-color: #F6DE73;
 }
 
 body{
@@ -22,7 +22,7 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 header {
     display: grid;
@@ -30,7 +30,7 @@ header {
     align-items: center;
     justify-items: left;
     padding: 20px;
-    background-color: var(--accent1-color)
+    background-color: var(--primary-color)
 }
 
 header img {
@@ -69,8 +69,8 @@ nav a:hover {
 
 .hero h1 {
     position: absolute;
-    background-color: #0b69ccff; 
-    color: #88BFFA;
+    background-color: #134365; 
+    color: #7AC4D5;
     left: 190px;
     top: 250px;
     padding-right: 10rem;
