@@ -2,7 +2,7 @@
 :root {
     --primary-color: #7AC4D5;
     --secondary-color: #134365;
-    --accent1-color: #508CA4;
+    --accent1-color: rgb(80, 140, 164);
     --accent2-color: #F6DE73;
 
     --heading-font: "caveat";
@@ -84,7 +84,7 @@ nav a:hover {
     top: 600px;
     font-size: 16pt;
     color: var(--accent2-color);
-    background-color: rgb(11, 105, 204, 0.5);
+    background-color: rgb(80, 140, 164, 0.5);
     max-width: 980px;
     padding: 10px;
 }
@@ -99,6 +99,11 @@ nav a:hover {
 section h2 {
     display: flex;
     justify-content: center;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 200px 1fr;
 }
 
 .adventures {
