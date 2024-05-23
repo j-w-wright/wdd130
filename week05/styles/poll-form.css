@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Kanit,Georgia,sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    width: 700px;
+}
+
+header {
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2rem;
+    color: #4c03ba;
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #bbb;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1rem;
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: #4c03ba;
+    font-size: 1.2em;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Gill Sans', sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+input, select, textarea {
+    padding: .7rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #4c03ba;
+    color: #eee; 
+    border: none;
+    border-radius: 0.5rem;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #06c506;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 700px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.button {
+    display: grid;
+    width: 200px;
+    height: 75px;
+    font-size:1.2em;
+    justify-content: center;
+    grid-template-columns: 1fr;
+
+    
+}
