@@ -69,9 +69,8 @@ input[type="checkbox"] {
 }
 
 button {
-    display: grid;
-    align-items: center;
-    margin: 1rem;
+    margin-right: .5rem;
+    margin-left: 13rem; /*this looks like it works, but doesn't seem right */
     background-color: #4c03ba;
     color: #eee; 
     border: none;
@@ -84,6 +83,10 @@ button {
 
 button:hover {
     background-color: #06c506;
+}
+
+label[for="places"] {
+    text-align: center;
 }
 
 footer {
