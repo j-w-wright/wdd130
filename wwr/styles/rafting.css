@@ -111,6 +111,116 @@ section h2 {
     justify-content: center;
 }
 
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+    justify-items: center;
+}
+
+.directions {
+    font-size: 1.2rem;
+}
+
+form {
+    display: grid;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(122, 196, 213, .2);
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1rem;
+    margin: 0.5rem;
+    border: rgb(122, 196, 213, .2);
+}
+
+legend {
+    padding: 0.5rem;
+    color: #134365;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+label, input, button, textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1.5rem;
+}
+
+input, textarea {
+    padding: .5rem;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+input {
+    width: 800px;
+    margin: 5px;
+}
+
+textarea {
+    width: 775px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.column1 {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    align-items: center;
+    justify-items: left;
+}
+
+.radio {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin: 0.5rem 0;
+    align-items: center;
+    justify-items: left;
+}
+
+input[type="radio"] {
+    width: 22px;
+    height: 22px;
+}
+
+button {
+    background-color: #F6DE73;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 200px;
+    justify-self: center;
+}
+
+button:hover {
+    background-color: #7AC4D5;
+}
+
+.contact {
+    font-size: 1.2rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+footer p{
+    display: grid;
+    justify-content: center;
+}
+
 .sociallinks {
     display: flex;
     justify-content: flex-end;
