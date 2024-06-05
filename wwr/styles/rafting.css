@@ -20,7 +20,7 @@ body{
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, figcaption {
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
@@ -61,7 +61,7 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-.hero img {
+.hero img, .hero1 img {
     position: relative;
     width: 1000px;
     height: auto;
@@ -89,6 +89,16 @@ nav a:hover {
     padding: 10px;
 }
 
+.hero1 article p {
+    position: absolute;
+    top: 350px;
+    font-size: 18pt;
+    color: var(--secondary-color);
+    background-color: rgba(248, 251, 252, 0.7);
+    max-width: 980px;
+    padding: 10px;
+}
+
 .hero article img {
     float: right;
     width: 200px;
@@ -99,11 +109,14 @@ nav a:hover {
 section h2 {
     display: flex;
     justify-content: center;
+    background-color: rgb(122, 196, 213, .2);
 }
 
 .history {
     display: grid;
     grid-template-columns: 200px 1fr;
+    align-content: center;
+    align-items: center;
 }
 
 .adventures {
@@ -111,6 +124,18 @@ section h2 {
     justify-content: center;
 }
 
+.adventures figcaption {
+    display: flex;
+    justify-self: center;
+}
+
+.contactus, .trip-title {
+    display: grid;
+    justify-content: center;
+    background-color: rgb(122, 196, 213, .2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .employees {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -140,8 +165,9 @@ fieldset {
 legend {
     padding: 0.5rem;
     color: #134365;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-style: italic;
+    font-weight: bolder;
 }
 
 label, input, button, textarea {
@@ -194,6 +220,66 @@ input[type="radio"] {
     height: 22px;
 }
 
+.site-purpose {
+    display: grid;
+
+}
+.site-purpose h1 {
+    display: grid;
+    justify-content: center;
+    background-color: rgb(122, 196, 213, .2);
+}
+
+.site-purpose1{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+}
+
+.site-purpose1 p, .call-to-action {
+    display: grid;
+    align-content: center;
+}
+
+.site-trips {
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.site-trips h1 {
+    display: grid;
+    justify-content: center;
+    background-color: rgb(122, 196, 213, .2)
+}
+
+.site-trips1 {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+}
+
+.site-trips1 p {
+    display: grid;
+    align-content: center;
+}
+
+.interest {
+    display: grid;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.interest button {
+    margin: 10px;
+}
+
+.interest1 {
+    display: grid;
+    padding-bottom: 20px;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
 button {
     background-color: #F6DE73;
     border: none;
@@ -225,4 +311,44 @@ footer p{
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
+}
+
+.call-to-action {
+    display: grid;
+    grid-template-columns: 350px 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.table {
+    margin: 0px auto;
+    border: 4pt solid #508CA4;
+    padding: 15px;
+    font-size: 16pt;
+    background-color: rgb(122, 196, 213, .2);
+}
+
+.table caption {
+    font-size: 1.9rem;
+    font-family: var(--heading-font);
+    color: var(--secondary-color); 
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 90pt;
+    max-width: 300pt;
+}
+
+.trips h3, figcaption {
+    display: grid;
+    justify-content: center;
+    font-size: 1.5rem;
 }
