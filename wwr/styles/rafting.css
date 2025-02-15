@@ -14,7 +14,7 @@
     --nav-hover-background-color: #F6DE73;
 }
 
-body{
+body {
     font-family: var(--paragraph-font);
     max-width: 1000px;
     padding: 20px;
